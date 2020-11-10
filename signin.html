@@ -24,30 +24,23 @@
 
 <body class="text-center">
 <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-        <div class="inner">
-            <a class="navbar-brand" href="index.html">
-                <h3 class="masthead-brand">PONGEYE</h3>
-            </a>
-            <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link" href="index.html">Inicio</a>
-                <a class="nav-link" href="us.html">Nosotros</a>
-                <a class="nav-link" href="register.html">Registrarse</a>
-                <a class="nav-link active" href="contact.html">Contáctanos</a>
-                <a class="nav-link" href="signin.html">Sign In</a>
-            </nav>
+    <form class="form-signin px-5 py-5 bg-white text-dark my-auto">
+        <a href="index.html">
+            <img class="mb-4" src="./assets/images/page_icon/pongeye.svg" alt="PongEye logo" height="100">
+        </a>
+        <h1 class="h3 mb-3 font-weight-normal">Bienvenido a PongEye</h1>
+        <label for="inputEmail" class="sr-only">Correo Electrónico</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="you@email.com" required autofocus>
+        <label for="inputPassword" class="sr-only">Contraseña</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="*********" required>
+        <div class="checkbox my-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Recordarme
+            </label>
         </div>
-    </header>
-
-    <main class="container w-80" role="main">
-        <h1 class="cover-heading mb-5">Contáctanos</h1>
-    </main>
-
-    <footer class="mastfoot mt-auto">
-        <div class="inner">
-            <p>&copy; Diseño de página utilizando <a class="link" href="https://getbootstrap.com">Bootstrap</a>.</p>
-        </div>
-    </footer>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </form>
 </div>
 
 
