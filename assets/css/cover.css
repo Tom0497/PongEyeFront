@@ -25,7 +25,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to right, #bbb,#444);
   /*
   Putting PongEye logo as background-image
